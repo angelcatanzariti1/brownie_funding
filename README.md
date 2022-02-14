@@ -1,2 +1,2 @@
 # brownie_funding
-Projects/causes funding based on a smart contract and implemented in Brownie.
+Projects/causes funding based on a smart contract, implemented in Brownie.
