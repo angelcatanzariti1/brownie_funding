@@ -13,7 +13,7 @@ def get_account():
 def deploy_mocks():
     print(f"Active network is {network.show_active()}")
     print("Deploying Mocks...")
-    if len(MockV3Aggregator <= 0):
+    if len(MockV3Aggregator) <= 0:
         mock_aggregator = MockV3Aggregator.deploy(
             DECIMALS, 
             Web3.toWei(STARTING_PRICE, "ether"), 
