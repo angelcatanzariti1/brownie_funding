@@ -9,6 +9,7 @@ compiler:
 dotenv: .env
 
 networks:
+  default: development
   development:
     verify: false
   ganache-local:
